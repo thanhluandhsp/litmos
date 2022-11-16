@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:40:04.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LQpn0hNPRJb8GVta7Gk8" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-16T08:26:52.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bc-1UkLdRFneVZjiKvSp" version="20.5.3" type="github" pages="3">
   <diagram id="Elj4mNWE-wcftsWt5mJ5" name="Auto Reset">
     <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,14 +74,14 @@
         <mxCell id="2SMRAJtqJOFULE2xa0Dj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2SMRAJtqJOFULE2xa0Dj-21" target="2SMRAJtqJOFULE2xa0Dj-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2SMRAJtqJOFULE2xa0Dj-21" value="Do not ingest this records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2SMRAJtqJOFULE2xa0Dj-21" value="Do not ingest these records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2SMRAJtqJOFULE2xa0Dj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2SMRAJtqJOFULE2xa0Dj-22" target="2SMRAJtqJOFULE2xa0Dj-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2SMRAJtqJOFULE2xa0Dj-22" value="Ingest these records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2SMRAJtqJOFULE2xa0Dj-27" value="End" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
           <mxGeometry x="920" y="525" width="50" height="50" as="geometry" />
@@ -116,7 +116,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_4joBwpABhVapJ60blAZ-3" value="Last achievment within&amp;nbsp;&lt;b&gt;n days&lt;/b&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+        <mxCell id="_4joBwpABhVapJ60blAZ-3" value="new achievment within&amp;nbsp;&lt;br&gt;&lt;b&gt;n days from last achievement&amp;nbsp;&lt;/b&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="110" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m5PwviwzbclUC3Lm1NYI-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;Phương án sử dụng Auto Reset cho khóa Refresh&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ưu điểm: - chỉ cần setting 1 lần duy nhất&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - giảm tỉ lệ học viên không hoàn thành bài thi cuối khóa mà vẫn được cấp achievement do kết quả khóa học sẽ được auto reset.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Nhược điểm: - không còn lưu trữ được historical data của học viên trên Litmos (đã có store ở Data Lake)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Vì các khóa cùng tên nên học viên có thể nhầm lẫn&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=left;" vertex="1" parent="1">
@@ -225,8 +225,14 @@
         <mxCell id="eUPdT-bP0_ccC_QQt8QU-20" value="Check ILP" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="eUPdT-bP0_ccC_QQt8QU-1">
           <mxGeometry x="390" y="110" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eUPdT-bP0_ccC_QQt8QU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eUPdT-bP0_ccC_QQt8QU-1" source="eUPdT-bP0_ccC_QQt8QU-23" target="eUPdT-bP0_ccC_QQt8QU-26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eUPdT-bP0_ccC_QQt8QU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eUPdT-bP0_ccC_QQt8QU-1" source="eUPdT-bP0_ccC_QQt8QU-23" target="eUPdT-bP0_ccC_QQt8QU-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="480" />
+              <mxPoint x="890" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="eUPdT-bP0_ccC_QQt8QU-23" value="Do not ingest this records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eUPdT-bP0_ccC_QQt8QU-1">
           <mxGeometry x="580" y="450" width="120" height="60" as="geometry" />
@@ -238,7 +244,7 @@
           <mxGeometry x="580" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eUPdT-bP0_ccC_QQt8QU-26" value="End" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="eUPdT-bP0_ccC_QQt8QU-1">
-          <mxGeometry x="1060" y="530" width="50" height="50" as="geometry" />
+          <mxGeometry x="1330" y="525" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eUPdT-bP0_ccC_QQt8QU-27" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Phương án sử dụng khóa mới mỗi quý/năm cho khóa Refresh&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;ILP Refresh: thời hạn là 90 days&amp;nbsp;&lt;br&gt;Tạo khóa mới mỗi quý&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Các khóa Refresh khác có thời hạn là 365 days&lt;br&gt;Tạo khóa mới mỗi năm&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="eUPdT-bP0_ccC_QQt8QU-1">
           <mxGeometry x="40" y="720" width="440" height="240" as="geometry" />
@@ -266,8 +272,23 @@
         <mxCell id="eUPdT-bP0_ccC_QQt8QU-32" value="New achievment within &lt;b&gt;70 -&amp;nbsp; 90 days from last achievement&lt;br&gt;+ pass final test (map with assessment score)&lt;br&gt;&lt;/b&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="eUPdT-bP0_ccC_QQt8QU-1">
           <mxGeometry x="840" y="30" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Vb-f_Hkbztx73mWMJsiR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eUPdT-bP0_ccC_QQt8QU-1" source="eUPdT-bP0_ccC_QQt8QU-34" target="eUPdT-bP0_ccC_QQt8QU-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1355" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eUPdT-bP0_ccC_QQt8QU-34" value="Ingest this records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eUPdT-bP0_ccC_QQt8QU-1">
           <mxGeometry x="1120" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vb-f_Hkbztx73mWMJsiR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eUPdT-bP0_ccC_QQt8QU-1" source="eUPdT-bP0_ccC_QQt8QU-36" target="eUPdT-bP0_ccC_QQt8QU-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="170" />
+              <mxPoint x="1350" y="525" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="eUPdT-bP0_ccC_QQt8QU-36" value="Do not ingest these records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eUPdT-bP0_ccC_QQt8QU-1">
           <mxGeometry x="1120" y="140" width="120" height="60" as="geometry" />
