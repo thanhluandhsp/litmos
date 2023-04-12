@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T11:17:59.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NcROKVN7fB5_6xkgU-jq" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T11:40:34.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="K74NXQRcI7Oeb9IJQOhM" version="21.1.7" type="github" pages="3">
   <diagram name="NoN MOF" id="fQQmENuIEXwLTcdRdl_z">
     <mxGraphModel dx="1970" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -161,6 +161,122 @@
         <mxCell id="thDypKQiT-64LbLIf0Kg-44" value="Việc report vẫn thực hiện manual&lt;br&gt;Có trường hợp không đồng bộ kết quả từ Litmos và TMS&amp;nbsp;&lt;br&gt;(do lỗi job get kết quả, hoặc profile bị trùng không trả kết quả &lt;br&gt;hoặc profile có kết quả đã bị xóa)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="735" width="350" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="Pe_MBrciBFtCj17xwoZH-1" value="***" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="30" y="830" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pe_MBrciBFtCj17xwoZH-2" value="Học viên Non MOF sau khi được active &lt;br&gt;không tự động chuyển team (có khóa học mặc định)&lt;br&gt;=&amp;gt; tăng thêm workload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="820" width="300" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Rein" id="vkYovINN1ZxbjtTZWmYw">
+    <mxGraphModel dx="1970" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-0" />
+        <mxCell id="09gS8H7WLiLJRydkrxy7-1" parent="09gS8H7WLiLJRydkrxy7-0" />
+        <mxCell id="09gS8H7WLiLJRydkrxy7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="09gS8H7WLiLJRydkrxy7-1" source="09gS8H7WLiLJRydkrxy7-3" target="09gS8H7WLiLJRydkrxy7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-3" value="Nhận thông tin request từ BO hoặc&lt;br&gt;từ học viên (không đăng nhập được tài khoản)&lt;br&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="09gS8H7WLiLJRydkrxy7-1" source="09gS8H7WLiLJRydkrxy7-8" target="3sYgrTNvgRS8eJZzEcFu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-5" value="Thông tin đúng và tình trạng &quot;rein&quot;&lt;br&gt;(LAS và TMS đều Inactive)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="09gS8H7WLiLJRydkrxy7-4">
+          <mxGeometry x="-0.5871" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="09gS8H7WLiLJRydkrxy7-1" source="09gS8H7WLiLJRydkrxy7-8" target="09gS8H7WLiLJRydkrxy7-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="330" />
+              <mxPoint x="25" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3sYgrTNvgRS8eJZzEcFu-1" value="Nếu thông tin không đúng, trùng profile&lt;br&gt;=&amp;gt; phản hồi cho BO cập nhật thông tin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="09gS8H7WLiLJRydkrxy7-6">
+          <mxGeometry x="-0.1378" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-8" value="Kiểm tra thông tin profile TMS và tình trạng trên TMS&lt;br&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="290" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3sYgrTNvgRS8eJZzEcFu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="09gS8H7WLiLJRydkrxy7-1" source="09gS8H7WLiLJRydkrxy7-23" target="09gS8H7WLiLJRydkrxy7-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-23" value="Phản hồi thông tin cho học viên/BO về tài khoản" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="740" y="85" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-24" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="810" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-25" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="50" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-26" value="Paint points:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="-5" y="425" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-27" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="30" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-28" value="Học viên rein chưa có trigger từ hệ thống&lt;br&gt;(chỉ nhận được thông tin qua email/call)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="65" y="450" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-29" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="340" y="300" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-30" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="30" y="540" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-31" value="Thông tin profile sai hoặc bị trùng &lt;br&gt;(học viên/AL nhập thêm thông tin từ PRUFORCE/PRUDAIL)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="70" y="520" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-32" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="630" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-34" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="30" y="610" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-35" value="Thao tác kiểm tra, gán team và cập nhật LitmosID đều là manual" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="80" y="605" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-36" value="***" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="30" y="680" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09gS8H7WLiLJRydkrxy7-40" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="1220" y="320" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3sYgrTNvgRS8eJZzEcFu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="09gS8H7WLiLJRydkrxy7-1" source="3sYgrTNvgRS8eJZzEcFu-2" target="09gS8H7WLiLJRydkrxy7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3sYgrTNvgRS8eJZzEcFu-2" value="Kiểm tra tài khoản trên PRUExpert.&amp;nbsp;&lt;br&gt;Nếu đã có tài khoản + có lịch sử học thì tạo tài khoản mới.&lt;br&gt;Cập nhật LitmosID (nếu cần)&lt;br&gt;Sau đó thì gán team AD Candidate." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="425" y="70" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3sYgrTNvgRS8eJZzEcFu-6" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="525" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BRleXO5vZ5iaNJ9HC4jo-0" value="Học viên Non MOF sau khi được active &lt;br&gt;không tự động chuyển team (có khóa học mặc định)&lt;br&gt;=&amp;gt; tăng thêm workload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="09gS8H7WLiLJRydkrxy7-1">
+          <mxGeometry x="85" y="660" width="300" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OLjQdKVq1x41z0ix_UFe" name="Page-2">
+    <mxGraphModel dx="1120" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
